@@ -1,0 +1,695 @@
+html{
+	height: 100%;
+	transition: width 3s;
+}
+body{
+	background: url("../images/1.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: "Lato";
+	background-repeat: repeat;
+	transition: width 3s;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.allcenteraligned{
+	text-align: center;
+	transition: width 3s;
+}
+
+#allleftaligned{
+	text-align: left;
+	margin-left: 0px;
+	padding-left: 30px;
+	transition: width 3s;
+}
+
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+	transition: width 3s;
+}
+
+strong{
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(10, 10, 10, 0), rgba(30, 30, 30, 0.75), rgba(10, 10, 10, 0));
+	transition: width 3s;
+}
+
+h1{
+	color:white;
+	font-size: 5em;
+	text-shadow: 5px 5px 130px red;
+	text-align: left;
+	letter-spacing: 10px;
+	transition: width 3s;
+}
+
+h2 {
+	color:#FF9A0B;
+	font-size: 2.7em;
+	text-shadow: 5px 5px 50px rgba(194, 41, 41,0.5),
+				5px 5px 50px rgba(236, 213, 126,0.5),
+		5px 5px 50px rgba(255,255,255,0.5);
+	letter-spacing: 8px;
+	transition: width 3s;
+}
+
+
+h3 {
+	color:#E19934;
+	font-size: 2em;
+	text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+				0px 8px 10px rgba(0,0,0,0.1),
+		0px 12px 15px rgba(0,0,0,0.4);
+	letter-spacing: 0px;
+	transition: width 3s;
+}
+
+h4 {
+	color:#FF9A0B;
+	font-size: 1.7em;
+	text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+				0px 8px 10px rgba(0,0,0,0.1),
+		0px 12px 15px rgba(0,0,0,0.4);
+	letter-spacing: 5px;
+	transition: width 3s;
+}
+
+h5 {
+	color:#E19934;
+	font-size: 1.6em;
+	text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+				0px 8px 10px rgba(0,0,0,0.1),
+		0px 12px 15px rgba(0,0,0,0.4);
+	letter-spacing: 2px;
+	transition: width 3s;
+}
+
+h6 {
+	color:darkgray;
+	font-size: 1.2em;
+	text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+				0px 8px 10px rgba(0,0,0,0.1),
+		0px 12px 15px rgba(0,0,0,0.4);
+	letter-spacing: 2px;
+	transition: width 3s;
+}
+
+.jumbotron {
+	background:url(../images/4.jpg) no-repeat 100% 0;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 0px solid rgba(86,61,124,.2);
+	margin:30px 0px 0px 0px;
+	padding: 80px 0px 0px 0px;
+    overflow:auto;
+	color:#E19934;
+    height:350px;
+	transition: width 3s;
+	
+}
+
+
+.navbar{
+	font-size: 1.5em;
+	background-color: #2F2C26;
+	color:#E19934;
+	transition: width 3s;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #E19934;
+	 text-shadow: 2px 2px 40px white;
+	transition: width 3s;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: white;
+	text-shadow: 1px 1px 40px #E19934;
+	transition: width 3s;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #736044;
+	transition: width 3s;
+}
+
+.navbar-inverse .navbar-brand {
+	font-family: "Merienda+One";
+    color: #FF9A0B;
+	
+	font-size: 1.3em;
+	padding:14px 0px 12px 30px;
+	margin:0px 50px 0px 50px;
+	letter-spacing: 1px;
+	transition: width 3s;
+	
+}
+
+.navbar-right{
+	font-family: "Merienda+One";
+    color: white;
+	
+	font-size: 1.1em;
+	padding:14px 0px 12px 30px;
+	margin:0px 10px 0px 0px;
+	letter-spacing: 1px;
+	transition: width 3s;
+}
+.btn{
+	padding:10px 20px 10px 20px;
+	font-size: 1.3em;
+	background-color: #2F2C26;
+	border-radius: 20px;
+	color:white;
+	margin: 0 auto;
+	transition: width 3s;
+}
+
+.btn:hover{
+	
+	background-color: white;
+	
+	color:black;
+	transition: width 3s;
+}
+
+iframe{
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+.navbar-brand{
+	margin:0px 0px;
+	padding:0px 0px;
+	transition: width 3s;
+}
+
+.history{
+	background: rgba(0, 0, 0, 0.8);  
+	color:white;
+	transition: width 3s;
+}
+
+.premovemargin{
+	margin: auto 0;
+	transition: width 3s;
+}
+
+.postmovemargin{
+	float:left;
+	margin-bottom: 15px;
+	width:300px;
+	height:190px;
+	transition: width 3s;
+}
+
+.parafonts{
+	color:darkgray;
+	transition: width 3s;
+}
+
+.parafontsmar{
+	
+	margin-left:320px;
+	transition: width 3s;
+}
+
+.future{
+	background: rgba(77, 0, 0, 0.2); 
+	width:25%;
+	margin:0 auto;
+	border-radius: 30px; 
+	transition: width 3s;
+}
+
+.clear{
+	clear:left;
+	transition: width 3s;
+}
+
+#Concerts {
+	padding-top:60px;
+	padding-bottom:30px;
+	margin-top:0px;
+	transition: width 3s;
+}
+
+#AboutMe{
+	padding-top:60px;
+	padding-bottom:30px;
+	margin-top:0px;
+	transition: width 3s;
+}
+
+#Collaborations{
+	padding-top:70px;
+	padding-bottom:30px;
+	margin-top:0px;
+	transition: width 3s;
+}
+
+#Contact{
+	padding-top:70px;
+	padding-bottom:30px;
+	margin-top:0px;
+	transition: width 3s;
+}
+
+.positionmainimage{
+	position: relative;
+	transition: width 3s;
+}
+
+.collab{
+	width: 100%;
+	transition: width 3s;
+}
+
+.Aboutmetext{
+	font-size: 1.45em;
+	transition: width 3s;
+}
+
+
+
+.footeralter{
+	margin-bottom: 0px;
+	font-size: 0.7em;
+	padding-top: 7px;
+	transition: width 3s;
+}
+
+.padformbelow{
+	padding-bottom: 60px;
+	transition: width 3s;
+}
+
+.contactalign{
+	text-align: center;
+}
+
+ .resizefb{
+	 float:right;
+position:fixed;
+ width:2.2%;
+	 margin:100px 100px 0px 5px;
+	 text-align: center;
+	 transition: width 3s;
+	 z-index: 1000;
+	 
+ }
+.resizeu{
+	float:right;
+position:fixed;
+ width:2.2%;
+	 margin:170px 100px 0px 5px;
+	 text-align: center;
+	 transition: width 3s;
+	z-index: 1000;
+}
+
+.navbar{
+	max-height: 51px;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+  -webkit-transition-property: height, visibility;
+       -o-transition-property: height, visibility;
+          transition-property: height, visibility;
+}
+	
+
+
+/*Phones*/
+@media only screen and (min-width : 1px) and (max-width : 568px) {
+	
+	html{
+	height: 100%;
+	transition: width 3s;
+}
+body{
+	background: url("../images/1.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: "Lato";
+	background-repeat: repeat;
+	transition: width 3s;
+}
+	
+	a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+	
+.allcenteraligned{
+	text-align: center;
+	transition: width 3s;
+	margin: 0 auto;
+}
+
+#allleftaligned{
+	text-align: center;
+	margin-left: 0px;
+	padding-left:0px;
+	transition: width 3s;
+}
+
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+	transition: width 3s;
+}
+
+strong{
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(10, 10, 10, 0), rgba(30, 30, 30, 0.75), rgba(10, 10, 10, 0));
+	transition: width 3s;
+}
+
+h1{
+	color:white;
+	font-weight: bolder;
+	font-size: 3em;
+	text-shadow: 5px 5px 130px red;
+	text-align: center;
+	letter-spacing: 2px;
+	transition: width 3s;
+	
+}
+	
+
+h2 {
+	color:#FF9A0B;
+	font-size: 2em;
+	text-shadow: 5px 5px 50px rgba(194, 41, 41,0.5),
+				5px 5px 50px rgba(236, 213, 126,0.5),
+		5px 5px 50px rgba(255,255,255,0.5);
+	letter-spacing: 2px;
+	transition: width 3s;
+}
+
+
+h3 {
+	color:#E19934;
+	font-size: 1.5em;
+	text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+				0px 8px 10px rgba(0,0,0,0.1),
+		0px 12px 15px rgba(0,0,0,0.4);
+	letter-spacing: 0px;
+	transition: width 3s;
+}
+
+h4 {
+	color:#FF9A0B;
+	font-size: 1.4em;
+	text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+				0px 8px 10px rgba(0,0,0,0.1),
+		0px 12px 15px rgba(0,0,0,0.4);
+	letter-spacing: 1px;
+	transition: width 3s;
+	
+}
+
+h5 {
+	color:#E19934;
+	font-size: 1em;
+	text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+				0px 8px 10px rgba(0,0,0,0.1),
+		0px 12px 15px rgba(0,0,0,0.4);
+	letter-spacing: 2px;
+	transition: width 3s;
+}
+
+h6 {
+	color:darkgray;
+	font-size: 1em;
+	text-shadow: 0px 4px 5px rgba(0,0,0,0.4),
+				0px 8px 10px rgba(0,0,0,0.1),
+		0px 12px 15px rgba(0,0,0,0.4);
+	letter-spacing: 2px;
+	transition: width 3s;
+}
+
+.jumbotron {
+	background:url(../images/4.jpg) no-repeat 90% 0;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 0px solid rgba(86,61,124,.2);
+	margin:20px 0px 0px 0px;
+	padding: 100px 0px 0px 0px;
+    overflow:auto;
+	color:#E19934;
+    height:300px;
+	transition: width 3s;
+	
+}
+
+
+.navbar{
+	font-size: 0.9em;
+	background-color: #2F2C26;
+	color:#E19934;
+	transition: width 3s;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #E19934;
+	 text-shadow: 1px 1px 40px rgba(255,255,255,0.5);
+	transition: width 3s;
+	font-size: 1.5em;
+	text-align: center;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: white;
+	text-shadow: 1px 1px 40px #E19934;
+	transition: width 3s;
+	
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #736044;
+	transition: width 3s;
+}
+
+.navbar-inverse .navbar-brand {
+	font-family: "Merienda+One";
+    color: #FF9A0B;
+	
+	font-size: 1.6em;
+	padding:15px 0px 5px 30px;
+	margin:0px 0px 0px 0px;
+	letter-spacing: 0px;
+	transition: width 3s;
+	
+}
+	
+.btn{
+	
+	padding:10px 10px 10px 10px;
+	margin 0px 0px 0px 0px;
+	font-size: 1.2em;
+	background-color: #2F2C26;
+	border-radius: 10px;
+	color:white;
+	
+	transition: width 3s;
+}
+
+.btn:hover{
+	
+	background-color: white;
+	color:black;
+	transition: width 3s;
+}
+
+iframe{
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+.navbar-brand{
+	margin:0px 0px;
+	padding:0px 0px;
+	transition: width 3s;
+}
+
+.history{
+	background: rgba(0, 0, 0, 0.8);  
+	color:white;
+	transition: width 3s;
+}
+
+.premovemargin{
+	margin: auto 0;
+	transition: width 3s;
+}
+
+.postmovemargin{
+	
+	margin-bottom: 0px;
+	width:325px;
+	height:180px;
+	transition: width 3s;
+}
+
+.parafonts{
+	color:darkgray;
+	transition: width 3s;
+}
+
+.parafontsmar{
+	
+	margin:0px 0px;
+	padding: 0px 0px;
+	transition: width 3s;
+	text-align: center;
+}
+	
+
+.clear{
+	clear:left;
+	transition: width 3s;
+}
+
+#Concerts {
+	padding-top:20px;
+	padding-bottom:70px;
+	margin-top:50px;
+	transition: width 3s;
+}
+
+#AboutMe{
+	padding-top:20px;
+	padding-bottom:70px;
+	margin-top:50px;
+	transition: width 3s;
+}
+
+#Collaborations{
+	padding-top:20px;
+	padding-bottom:70px;
+	margin-top:50px;
+	transition: width 3s;
+}
+	
+	#Contact{
+	padding-top:20px;
+	padding-bottom:70px;
+	margin-top:50px;
+	transition: width 3s;
+}
+
+.positionmainimage{
+	position: relative;
+	transition: width 3s;
+}
+
+.collab{
+	width: 100%;
+	transition: width 3s;
+}
+
+.Aboutmetext{
+	font-size: 1.2em;
+	transition: width 3s;
+}
+
+
+.footeralter{
+	margin-bottom: 0px;
+	font-size: 0.8em;
+	transition: width 3s;
+}
+
+.padformbelow{
+	
+	transition: width 3s;
+}
+	
+	.contactalign{
+	text-align: center;
+		
+		margin-left: 0px;
+		padding-left: 0px;
+}
+	
+	 .resizefb{
+	 float:right;
+position:fixed;
+ width:7%;
+	 margin:60px 100px 0px 0px;
+	 text-align: center;
+	 transition: width 3s;
+	 z-index: 1000;
+	 
+ }
+.resizeu{
+	float:right;
+position:fixed;
+ width:7%;
+	 margin:90px 100px 0px 0px;
+	 text-align: center;
+	 transition: width 3s;
+	z-index: 1000;
+}
+	
+	
+.future{
+	background: rgba(77, 0, 0, 0.2); 
+	width:100%;
+	margin:0 auto;
+	border-radius: 30px; 
+	transition: width 3s;
+}
+	
+	.phonecolor{
+		color:#FF9A0B;
+		font-size: 0.65em;
+	}
+	
+	.navbar{
+	max-height: 400px;
+}
+	
+
+	
+}
+
+
+/*small tablets*/
+@media only screen and (min-width : 569px) and (max-width : 767px) {
+}
+
+/*ipads portrait and landscapes*/
+@media only screen and (min-width : 768px)  and (max-width : 980px) {
+}
